@@ -27,7 +27,6 @@ private val LightColorScheme = lightColorScheme(
 @Composable
 fun ShopFlowTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,
     content: @Composable () -> Unit
 ) {
@@ -50,6 +49,6 @@ fun ShopFlowTheme(
 }
 
 object CarouselTheme {
-    val DarkBackground = Color(0xFF070707)
+    val DarkBackground = Color(0xFF171717)
     val IndicatorActive = Color(0xFFA5F33B)
 }

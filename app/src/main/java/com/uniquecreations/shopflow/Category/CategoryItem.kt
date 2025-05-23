@@ -33,9 +33,9 @@ fun CategoryItem(category: String) {
             contentAlignment = Alignment.Center
         ) {
             Image(
-                painter = painterResource(id = R.drawable.categorysample), // replace with your image resource
+                painter = painterResource(id = R.drawable.categorysample),
                 contentDescription = "Icon",
-                modifier = Modifier.size(60.dp), // adjust size as needed
+                modifier = Modifier.size(60.dp),
                 contentScale = ContentScale.FillBounds)
         }
 
